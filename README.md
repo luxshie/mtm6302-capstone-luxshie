@@ -21,4 +21,4 @@ Reasoning: The home landing page's main focus is to provide a straightforward wa
 
 Favorites Section and Heart Indicator:
 
-Reasoning: Including a favorites section with a prominently displayed red heart icon for favorited photos serves two purposes. It allows users to easily track and access their favorite content, while the visual cue of a red heart provides a recognizable and intuitive way for users to indicate and interact with their preferred images.
+Reasoning: Including a favorites section with a prominently displayed red heart icon for favorited photos serves two purposes. It allows users to easily track and access their favorite content, while the visual cue of a red heart provides a recognizable and intuitive way for users to indicate and interact with their preferred images. 
