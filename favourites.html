@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Space App</title>
+</head>
+<body>
+  <header>
+    <img src="images/nasa_logo.png" alt="NASA Logo" id="nasaLogo">
+    <h1>NASA APOD API</h1>
+    <div id="menuIcon" onclick="toggleMenu()">☰</div>
+    <div id="menuOptions">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="favourites.html">Favorites</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+<div class="APODContainer">
+  <h2 style="color: white; font-family: 'Monument'; font-size: 25px;">Astronomy Photo of the Day</h2>
+
+  <div class="APODPhotoContainer">
+    <div id="APODContainer">
+      <img id="astronomyphoto" src="images/astro_1.jpg" alt="Astronomy Photo">
+    </div>
+
+    <div class="clickToExpand">
+      <p>Click here to expand</p>
+    </div>
+    </div>
+
+    <div class="infoBox">
+      <h3>Cosmic Kaleidoscope: Celestial Patterns in NGC 891</h3>
+    </div>
+
+    <div class="infoBox">
+      <p>Date: August 16, 2023
+    </p>
+    </div>
+  </div>
+
+  <div class="infoBox">
+    <p>Behold the mesmerizing spectacle of NGC 891, a barred spiral galaxy showcasing intricate cosmic patterns and hues. This image, captured by NASA's telescope, unveils the natural beauty of celestial symmetry and structure, reminiscent of a dazzling kaleidoscope in the vastness of space.</p>
+  </div>
+</div>
+
+
+
+
+  
+  <section id="apodDisplay">
+    
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

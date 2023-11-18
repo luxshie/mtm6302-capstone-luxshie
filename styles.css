@@ -1,0 +1,206 @@
+
+/* Your existing CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#596BC0, #1D233F);
+  min-height: 100vh; 
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+header {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  z-index: 1; 
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Monument';
+  color: white;
+  margin: 0;
+  display: inline-block;
+}
+
+#nasaLogo {
+  max-width: 50px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#menuIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+#menuOptions {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: #1D233F;
+  border-radius: 5px;
+}
+
+#menuOptions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menuOptions ul li {
+  padding: 10px;
+}
+
+#menuOptions ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.blackBox {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.favoritesContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.infoBox {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Microsoft Sans Serif';
+}
+
+.infoBox h2 {
+  margin-bottom: 10px;
+}
+
+#astronomyphoto {
+  max-width: 500px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  border: 1px solid white;
+}
+
+
+.clickToView {
+  text-align: center;
+}
+
+.clickToView p {
+  font-family: 'Monument';
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+#photocontainer {
+  position: relative;
+}
+
+.relativeContainer {
+  position: relative;
+  text-align: center; 
+}
+
+
+
+.aboutContent {
+  
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Monument';
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+
+   
+.photoContainer1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.portraitPhoto,
+.landscapePhoto {
+  width: 100%; 
+  max-width: 300px; 
+  margin: 10px; 
+  border: 1px solid white; 
+  box-sizing: border-box; 
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portraitPhoto img,
+.landscapePhoto img {
+  width: 100%; 
+  height: auto;
+  display: block; 
+  border-radius: 25px;
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 600px; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+
+.box-text {
+  font-family: 'Microsoft Sans Serif', sans-serif;
+  font-size: 20px;
+  margin: 0; 
+}
+
+
+
+
+
+  .clickToExpand {
+    text-align: center;
+  }
+  
+  .clickToExpand p {
+    font-family: 'Monument';
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+  }
+}
+
