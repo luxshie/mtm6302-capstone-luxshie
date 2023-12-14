@@ -15,59 +15,27 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="favourites.html">Favorites</a></li>
       </ul>
     </div>
   </header>
 
-<div class="container">
-  <form id="dateForm" class="blackBox">
-    <h2 style="color: white; font-family: 'Microsoft Sans Serif';">Access NASA APOD Images by Date</h2>
-    <input type="date" id="dateInput" required>
-    <button type="submit" style="background-color: #596BC0; color: white; border-radius: 5px;">Search</button>
-  </form>
-
-
-
-<div class="favoritesContainer">
-  <h2 style="color: white; font-family: 'Monument'; font-size: 25px;">Your Favorites</h2>
-
-  <div class="photoContainer">
-    <div id="favoritesPhotoContainer">
-      <img id="astronomyphoto" src="images/astronomy.jpg" alt="Astronomy Photo">
+  <div class="container">
+    <form id="apodForm">
+      <label for="date">Select a date (YYYY-MM-DD):</label>
+      <input type="text" id="date" required>
+      <button type="submit">Get APOD</button>
+      <!-- Add a "Favorite" button -->
+      <button type="button" id="favoriteButton">Favorite</button>
+    </form>
+    <div id="apodContainer">
+      <!-- Display APOD image and information here -->
     </div>
+    
+    <h2>Favorites</h2>
 
-    <div class="clickToView">
-      <p>Click here to view all</p>
+    <div id="favorites-container">
+        <!-- Display favorite APODs here -->
     </div>
-    </div>
-
-    <div class="infoBox">
-      <h3>Cosmic Kaleidoscope: Celestial Patterns in NGC 891</h3>
-    </div>
-
-    <div class="infoBox">
-      <p>Date: September 23, 2023</p>
-    </div>
-  </div>
-
-  <div class="infoBox">
-    <p>Behold the mesmerizing spectacle of NGC 891, a barred spiral galaxy showcasing intricate cosmic patterns and hues. This image, captured by NASA's telescope, unveils the natural beauty of celestial symmetry and structure, reminiscent of a dazzling kaleidoscope in the vastness of space.</p>
-  </div>
-</div>
-
-
-
-
- 
-  <section id="apodDisplay">
-
-  </section>
-
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
